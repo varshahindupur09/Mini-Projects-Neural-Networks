@@ -49,3 +49,4 @@ The learning rate can affect the convergence and stability of the training proce
 
 </p>
 
+![image](https://github.com/varshahindupur09/Neural-Networks-Multi-Layer-Perceptron-MLP/assets/114629181/0894d416-550a-448f-9f8a-2d008dc2a1de)
