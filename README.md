@@ -9,3 +9,43 @@ Class MLPClassifier utilizes a supervised learning technique called backpropagat
 
 Note that Multilayer perceptrons are sometimes referred to as "vanilla" neural networks, especially when they have a single hidden layer.
 </p>
+
+<p>
+With scikit-learn's **MLPClassifier**, we can utilize the GridSearch cross validation method to optimize the following parameters:
+
+1. hidden_layer_sizes:
+
+Type: Tuple, 
+length = n_layers - 2 (excluding input and output layers)
+Default: (100,)
+Description: Specifies the number of neurons in each hidden layer. The ith element in the tuple represents the number of neurons in the ith hidden layer. 
+For example, if hidden_layer_sizes=(50, 30), it means there are two hidden layers with 50 and 30 neurons, respectively.
+
+2. alpha:
+
+Type: Float
+Default: 0.0001
+Description: Represents the strength of the L2 regularization term. 
+L2 regularization is a regularization technique that adds a penalty term to the loss function to prevent overfitting. 
+The value of alpha determines the strength of this penalty, and it is divided by the sample size when added to the loss.
+
+
+3. max_iter:
+
+Type: Integer
+Default: 200
+Description: Specifies the maximum number of iterations for training. 
+The solver iterates until convergence (determined by the tolerance parameter 'tol') or until it reaches this maximum number of iterations. 
+For stochastic solvers like 'sgd' (stochastic gradient descent) or 'adam', this parameter determines the number of epochs, i.e., how many times each data point will be used.
+
+4. learning_rate_init:
+
+Type: Float
+Default: 0.001
+Description: Sets the initial learning rate for weight updates. 
+The learning rate controls the step size in updating the weights during training. 
+This parameter is only used when the solver is set to 'sgd' (stochastic gradient descent) or 'adam'. 
+The learning rate can affect the convergence and stability of the training process.
+
+</p>
+
