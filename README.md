@@ -47,6 +47,12 @@ The learning rate controls the step size in updating the weights during training
 This parameter is only used when the solver is set to 'sgd' (stochastic gradient descent) or 'adam'. 
 The learning rate can affect the convergence and stability of the training process.
 
+
+And this is a summary for usage of Different models in Different areas:
+
+![image](https://github.com/varshahindupur09/Neural-Networks-MLP-IBM-Coursera/assets/114629181/8b1b3770-04fe-418d-8a7e-354683bdb1a8)
+
+
 </p>
 
 ![image](https://github.com/varshahindupur09/Neural-Networks-Multi-Layer-Perceptron-MLP/assets/114629181/0894d416-550a-448f-9f8a-2d008dc2a1de)
