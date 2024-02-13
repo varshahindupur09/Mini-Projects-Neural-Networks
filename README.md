@@ -57,8 +57,8 @@ The learning rate can affect the convergence and stability of the training proce
 ![image](https://github.com/varshahindupur09/Neural-Networks-MLP-IBM-Coursera/assets/114629181/8b1b3770-04fe-418d-8a7e-354683bdb1a8)
 </p>
 
+# Neural-Networks-Gradient-Descent
 <p>
-  Gradient Descent:
 
   I have used different use cases to demonstrate my knowledge on Gradient Descent:
 
