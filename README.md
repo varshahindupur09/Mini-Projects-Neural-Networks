@@ -95,3 +95,15 @@ Weights combine layers in a neural network. Inputs go through transformations, y
 ### Data Transformation in MLP:
 
 Data undergoes transformations through an MLP. Input values are combined with weights to create Z-values, transformed by activations to A-values. This process scales to handle datasets.
+
+### Deep Learning Models: 
+
+Deep learning includes neural networks, RNNs, CNNs, and unsupervised models like autoencoders and GANs. These models have diverse applications beyond traditional tasks.
+
+### Gradient Descent: 
+
+Gradient descent optimizes neural network parameters by minimizing a cost function. It starts with initialization and updates parameters iteratively. Learning rate controls the step size.
+
+### Stochastic Gradient Descent: 
+
+Stochastic gradient descent updates parameters using individual data points, introducing randomness. Mini-batch gradient descent balances efficiency and stability by using subsets of data for updates.
