@@ -86,7 +86,7 @@ A perceptron is a neural network's building block, like logistic regression. It 
 
 ### Building an MLP: 
 
-The course introduces building an MLP with Scikit-Learn, emphasizing hidden layers and activation functions. Future lessons will cover more advanced models with Keras.
+Building an MLP with Scikit-Learn, emphasizing hidden layers and activation functions. More advanced models with Keras.
 
 ### Navigating a Neural Network: 
 
