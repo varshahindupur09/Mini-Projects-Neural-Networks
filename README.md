@@ -65,3 +65,33 @@ The learning rate can affect the convergence and stability of the training proce
   ![image](https://github.com/varshahindupur09/Neural-Networks-MLP-IBM-Coursera/assets/114629181/e8c78b29-05fb-46a0-b0db-0db147d5ad69)
 
 </p>
+
+# Summary:
+
+### Deep Learning Overview:
+
+Deep learning powers various AI applications like self-driving cars, computer vision, and speech recognition. It's used for classification and unsupervised learning tasks. The course covers neural networks, advanced topics like CNNs and GANs, and reinforcement learning.
+
+### Neural Network Basics: 
+
+Neural networks are vital for AI applications. They process data in layers and use activation functions like the sigmoid. They relate to logistic regression, allowing non-linear patterns.
+
+### Sigmoid Activation Function: 
+
+The sigmoid activation function is crucial due to its differentiability. Its derivative is computed using the quotient rule, which involves exponential terms. The derivative relates to the function itself.
+
+### Perceptron and MLP: 
+
+A perceptron is a neural network's building block, like logistic regression. It transforms input through weights and the sigmoid function. Stacking layers creates more complex decision boundaries.
+
+### Building an MLP: 
+
+The course introduces building an MLP with Scikit-Learn, emphasizing hidden layers and activation functions. Future lessons will cover more advanced models with Keras.
+
+### Navigating a Neural Network: 
+
+Weights combine layers in a neural network. Inputs go through transformations, yielding activation values. These values progress from input to output, driven by weights and activations.
+
+### Data Transformation in MLP:
+
+Data undergoes transformations through an MLP. Input values are combined with weights to create Z-values, transformed by activations to A-values. This process scales to handle datasets.
