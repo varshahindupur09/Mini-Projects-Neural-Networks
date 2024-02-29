@@ -107,3 +107,8 @@ Gradient descent optimizes neural network parameters by minimizing a cost functi
 ### Stochastic Gradient Descent: 
 
 Stochastic gradient descent updates parameters using individual data points, introducing randomness. Mini-batch gradient descent balances efficiency and stability by using subsets of data for updates.
+
+
+
+# Project 2: 
+Implemented a Single Hidden Layer Neural Network using Keras to predict diabetes using the Pima Diabetes Dataset. Trained the model with 200 epochs, achieving an accuracy of 76.0% and a ROC-AUC score of 81.0%. Evaluated different network structures to assess performance, training time, and overfitting.
